@@ -17,17 +17,12 @@ public class Ruin {
 				boolean random_boolean = Math.random() < winChance;
 				if (random_boolean) {
 					startAmount += 1;
+					System.out.println("win");
 				}
 				else {
 					startAmount -= 1;
+					System.out.println("Lose");
 				}
-			}
-		
-			if (startAmount == 0) {
-				System.out.println("Lose");
-			}
-			else {
-				System.out.println("Win");
 			
 			}
 		}
